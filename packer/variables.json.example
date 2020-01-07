@@ -1,0 +1,10 @@
+{
+  "project_id": "dummy-623919",
+  "source_image_family": "ubuntu-1604-lts",
+  "machine_type": "f1-micro",
+  "image_description": "reddit image",
+  "disk_size": "10",
+  "disk_type": "pd-standard",
+  "network": "default",
+  "tags": ""
+}
