@@ -1,0 +1,4 @@
+project          = "devops-course-1"
+public_key_path  = "~/.ssh/appuser.pub"
+disk_image       = "some-image"
+private_key_path = "~/.ssh/appuser"
