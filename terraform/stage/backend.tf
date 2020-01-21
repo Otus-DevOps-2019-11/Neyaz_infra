@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "Neyaz-bucket"
+    bucket  = "neyaz-bucket"
     prefix  = "terraform/stage"
   }
 }
