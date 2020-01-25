@@ -25,7 +25,9 @@ script:
 - tflint --ignore-module=SweetOps/storage-bucket/google;
 - terraform get terraform/prod
 - tflint --ignore-module=SweetOps/storage-bucket/google;
-- ansible-lint;
+- find ansible/playbooks/ -type f -name '*.yml' -exec ansible-lint {} \;
+- find ansible/roles/ -type f -name '*.yml' -exec ansible-lint {} \;
+- find ansible/environments/ -type f -name '*.yml' -exec ansible-lint {} \;
 notifications:
   slack:
     rooms:
